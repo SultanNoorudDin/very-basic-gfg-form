@@ -1,0 +1,16 @@
+body {
+    background-color: green;
+}
+
+h2 {
+    text-align: center;
+    font-size: 60px;
+}
+
+form{
+    margin-left: 500px;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    width: 600px;
+}

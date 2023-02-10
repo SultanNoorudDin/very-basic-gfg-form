@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GFG Form</title>
+</head>
+
+<body>
+    <h2>Geeks For Geeks Survey Form</h2>
+    <form class="main">
+        <p class="row-heading">Name : </p>
+        <input type="text" placeholder="Enter your name">
+
+        <p class="row-heading">Email : </p>
+        <input type="email" placeholder="Enter your email">
+
+        <p class="row-heading">Age : </p>
+        <input type="number" placeholder="Enter your age">
+
+        <p class="row-heading">Which option best describes you? </p>
+
+        <label for="Designation"></label>
+        <select name="position" id="position">
+            <option value="Student">Student</option>
+            <option value="Teacher">Teacher</option>
+            <option value="Employer">Employer</option>
+            <option value="Employee">Employee</option>
+        </select>
+
+        <p>Would you recommend it to a friend?
+            <input type="radio" name="choice">Yes
+            <input type="radio" name="choice">No
+        </p>
+        <p>Languages you already know :</p>
+        <input type="radio">C# <br>
+        <input type="radio">Python <br>
+        <input type="radio">C++ <br>
+        <input type="radio">Java <br>
+        <input type="radio">SQL <br>
+
+    </form>
+</body>
+
+</html>
